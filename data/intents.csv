@@ -1,0 +1,13 @@
+text,intent
+recommend me a book,RECOMMEND
+suggest books for ai,RECOMMEND
+i want books about programming,RECOMMEND
+make me a learning path for machine learning,LEARNING_PATH
+give me a study plan for python,LEARNING_PATH
+beginner to advanced path for ai,LEARNING_PATH
+predict demand for next month,DEMAND_PREDICT
+which books will be popular next month,DEMAND_PREDICT
+forecast borrowing trend,DEMAND_PREDICT
+hello,SMALLTALK
+hi there,SMALLTALK
+thank you,SMALLTALK

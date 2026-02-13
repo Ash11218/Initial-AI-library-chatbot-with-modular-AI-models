@@ -1,0 +1,7 @@
+book_id,title,subject,difficulty,description
+1,Python Basics,Programming,Beginner,Learn Python from scratch
+2,Data Structures,Programming,Intermediate,Stacks queues linked lists trees
+3,Machine Learning Intro,AI,Beginner,Supervised unsupervised learning basics
+4,Deep Learning,AI,Advanced,Neural networks CNN RNN
+5,Calculus I,Math,Beginner,Limits derivatives integrals basics
+6,Statistics,Math,Intermediate,Probability distributions hypothesis testing
