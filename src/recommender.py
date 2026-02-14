@@ -39,7 +39,7 @@ class BookRecommender:
                     "subject": row["subject"],
                     "difficulty": row["difficulty"],
                     "language": row["language"],
-                    "description": row["description"],
+                    "score": float(sims[i]),
                 }
             )
         return results
