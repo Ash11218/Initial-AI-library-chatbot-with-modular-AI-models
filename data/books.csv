@@ -5,15 +5,3 @@ book_id,title,subject,difficulty,description
 4,Deep Learning,AI,Advanced,Neural networks CNN RNN
 5,Calculus I,Math,Beginner,Limits derivatives integrals basics
 6,Statistics,Math,Intermediate,Probability distributions hypothesis testing
-
-book_id,title,author,subject,difficulty,language,description
-7,Introduction to Algorithms,Thomas H. Cormen,Computer Science,Advanced,English,Comprehensive guide to algorithms and data structures
-8,Artificial Intelligence: A Modern Approach,Stuart Russell,AI,Advanced,English,Foundations of AI including search learning and reasoning
-9,Python Crash Course,Eric Matthes,Programming,Beginner,English,Hands on beginner friendly Python guide
-10,Deep Learning,Ian Goodfellow,AI,Advanced,English,Neural networks and deep learning theory
-11,Calculus Made Easy,Silvanus Thompson,Mathematics,Beginner,English,Step by step introduction to calculus
-12,The Art of Statistics,David Spiegelhalter,Statistics,Intermediate,English,Understanding statistical thinking
-13,Machine Learning Yearning,Andrew Ng,AI,Intermediate,English,Practical ML strategy guide
-14,Data Science for Business,Foster Provost,Data Science,Intermediate,English,Data science concepts for business
-15,Clean Code,Robert C. Martin,Software Engineering,Intermediate,English,Writing maintainable software
-16,The Pragmatic Programmer,Andrew Hunt,Software Engineering,Intermediate,English,Professional software development guide
