@@ -9,12 +9,19 @@ class BookRecommender:
         self.vectorizer = TfidfVectorizer(lowercase=True, stop_words="english")
         # combine subject + difficulty + description for better matching
         self.books["features"] = (
-            self.books["subject"].astype(str)
+            self.books["title"].astype(str)
+            + " "
+            + self.books["author"].astype(str)
+            + " "
+            + self.books["subject"].astype(str)
             + " "
             + self.books["difficulty"].astype(str)
             + " "
+            + self.books["language"].astype(str)
+            + " "
             + self.books["description"].astype(str)
         )
+
         self.matrix = self.vectorizer.fit_transform(self.books["features"])
 
     def recommend(self, query: str, top_k: int = 3) -> list[dict]:
@@ -28,9 +35,11 @@ class BookRecommender:
             results.append(
                 {
                     "title": row["title"],
+                    "author": row["author"],
                     "subject": row["subject"],
                     "difficulty": row["difficulty"],
-                    "score": float(sims[i]),
+                    "language": row["language"],
+                    "description": row["description"],
                 }
             )
         return results
